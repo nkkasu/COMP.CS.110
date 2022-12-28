@@ -3,11 +3,6 @@
 #include <QApplication>
 /*
  * A pairs game
- * Program Author
- * Name: Niilo Kasurinen
- * Student number: H291879
- * UserID: rfnika
- * E-Mail: niilo.kasurinen@tuni.fi
  * Program executes a pairs (memory) game. Game has a varying amount of cards
  * and players. In the beginning of the game player is prompted of player names who
  * are going to be playing. At least one player has to be added to start the game by
