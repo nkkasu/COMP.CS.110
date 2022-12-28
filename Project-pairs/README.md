@@ -19,3 +19,5 @@ as there are cards. When printing the game board, visible card is shown as
 #, whereas hidden one as dot (.). Game ends when all pairs have been found,
 and the game board is empty. The program tells who has/have won, as well as most
 pairs collected.
+
+![image](https://user-images.githubusercontent.com/100607632/209880130-efd64a86-3b43-4267-a63c-4a7e4091f342.png)
