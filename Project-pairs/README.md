@@ -1,25 +1,21 @@
 ## Pairs
 
 A pairs game
-Program executes a pairs (memory) game. Game can have a varying amount of cards
-and players by changing hard coded constat CARDCOUNT in mainwindow.cpp.
 
-In the beginning of the game player is prompted of player names who
-are going to be playing. At least one player has to be added to start the game by
-pressing the Start game-button. When game begins, timer starts. Player has to click
-2 different cards on the screen to check whether they are pairs or not. If they are not
-pairs, turn switches to another player OR stays on the player if only 1 player is playing.
-If cards are pairs, player can continue until player doesn't find a pair. Found pairs are added
-to current points of player. Game will display how many pairs are found and who is in turn
-currently to make game experience smoother. Game continues, until all pairs are found and
-screen is empty of pairs. Then game will declare who the winner is. There can also be a tie,
-which will be declared differently. When game ends, time also stops. Card's hidden side letters are
-letters from alphabet, starting from A and ending to Z.
-
-NOTE:
-Upper limit for cards is 30 cards! Also, 13 and 26 cards are not recommended, since position of cards
-are calculated on grid based on factors. Card class is pretty empty, but idea was to add images to all cards
-which would have made Card-class more useful.
-
-![image](https://user-images.githubusercontent.com/100607632/209875511-391c095e-91e2-4ab3-b2c7-ca744b8482a2.png)
-![image](https://user-images.githubusercontent.com/100607632/209876132-a618cdf2-5ae3-464f-9d02-be464d7ce14e.png)
+Program executes a pairs (memory) game. Game has a varying amount of cards
+and players. In the beginning of the game player is asks for a seed value,
+since all cards are drawn randomly on the game board.
+Game then asks how many players are going to play the game, and asks
+to list the players. Every round player in turn gives coordinates of
+two cards (x1, y1), (x2, y2). After coordinates are given, game checks
+whether coordinates are valid, and then turns the cards around. Cards must
+be found in the game board, as well as player can't choose two of the same
+coordinate. Game checks whether cards are a pair or not. If cards were a pair,
+player is given more score and cards are removed from the game board player
+can also continue his turn and try finding more pairs. If cards were not a pair,
+cards are turned back hidden. Player doesn't get any points and turn is given
+to the next player. Cards are depicted as letters beginning from A to as far
+as there are cards. When printing the game board, visible card is shown as
+#, whereas hidden one as dot (.). Game ends when all pairs have been found,
+and the game board is empty. The program tells who has/have won, as well as most
+pairs collected.
