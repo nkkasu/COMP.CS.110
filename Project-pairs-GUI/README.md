@@ -2,7 +2,7 @@
 
 A pairs game
 Program executes a pairs (memory) game. Game can have a varying amount of cards
-and players by changing hard coded constat CARDCOUNT in mainwindow.cpp.
+and players by changing hard coded constant CARDCOUNT in mainwindow.cpp.
 
 In the beginning of the game player is prompted of player names who
 are going to be playing. At least one player has to be added to start the game by
