@@ -3,7 +3,8 @@
 This repository contains projects for University course Programming 2. 
 
 **NOTE! Projects were made in Linux environment, so it is not guaranteed that they work on Windows.**
-**Also note that there are README's on each project folders.
+
+**Also note that there are README's on each project folders.**
 
 ## Project 1 - Pairs
 
